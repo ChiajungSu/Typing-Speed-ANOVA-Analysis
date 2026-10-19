@@ -109,7 +109,7 @@ distribution.
 
 ```{r}
 typing <- read.csv(
-  "/Users/suchiajung/Desktop/Typing_speed.csv",
+  "Typing_speed.csv",
   check.names = FALSE
 )
 
