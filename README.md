@@ -90,16 +90,23 @@ These findings should inform further testing rather than be treated as a univers
 
 Future work would recruit more participants, repeat each treatment combination within participants, measure keyboard familiarity, record actual condition order, and standardize typing passages, noise levels, and rest intervals.
 
+
 ## Project Files
 
-| File | Purpose |
-| --- | --- |
-| `Typing_speed.csv` | Original experimental observations; required to rerun the analysis |
-| `typing_analysis_6participants copy.Rmd` | R Markdown source code and statistical interpretation |
-| `typing_analysis_6participants.html` | Rendered HTML report (rename or update the link to match the uploaded file) |
-| `Typing_Speed_FINAL_Presentation.pdf` | Team's final presentation |
+| File | Description |
+|---|---|
+| [Dataset](Typing_speed.csv) | Original experimental dataset containing 24 observations |
+| [R Markdown Source](typing_analysis_6participants.Rmd) | R code, statistical analysis, and model diagnostics |
+| [HTML Analysis Report](typing_analysis_6participants.html) | Complete statistical analysis and visualizations |
+| [Final Presentation](Typing_Speed_FINAL_Presentation.pdf) | Final presentation summarizing experimental design, findings, and conclusions |
 
-> **Note:** Filenames above reflect the project materials and may need to be aligned with the names used in this GitHub repository. The CSV is not included in this README download; upload the original CSV separately.
+### How to Explore This Project
+
+1. Start with the Final Presentation for a quick overview.
+2. Review the HTML Analysis Report for detailed statistical results.
+3. Explore the R Markdown Source to understand the analytical workflow.
+4. Download the Dataset to reproduce the analysis.
+
 
 ## Reproduce the Analysis
 
