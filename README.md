@@ -70,6 +70,30 @@ The keyboard × environment interaction was not significant: **F(1, 15) = 0.016,
 
 The team presentation also reported a statistically significant participant/block effect (**F = 51.08, p < 0.001**), highlighting substantial differences in baseline typing speed. Including participant as a block helped make the treatment comparisons more informative.
 
+
+## Data Visualizations
+
+### 1. Average Net WPM by Keyboard Type
+
+![Keyboard Comparison](images/keyboard_comparison.png)
+
+Internal keyboards achieved an average of 42.67 Net WPM,
+compared with 37.83 Net WPM for external keyboards.
+
+The difference was statistically significant (p = 0.00238).
+
+### 2. Keyboard Type × Environment Interaction
+
+![Interaction Plot](images/interaction_plot.png)
+
+The interaction plot shows nearly parallel lines,
+suggesting that the keyboard effect was similar
+across quiet and noisy environments.
+
+The interaction was not statistically significant
+(p = 0.90157).
+
+
 ## Model Diagnostics
 
 Residual-versus-fitted and normal Q–Q plots were examined. The R Markdown analysis reports a **Shapiro–Wilk W = 0.96589, p = 0.5674**, providing insufficient evidence to reject residual normality at α = 0.05. The diagnostic plots did not indicate a strong funnel pattern, although the small sample limits the ability to detect assumption violations. These checks do not establish independence of errors.
